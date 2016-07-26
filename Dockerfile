@@ -13,7 +13,7 @@ RUN cd /home && git clone https://github.com/voutcn/megahit.git && cd megahit \
 
 RUN cd /home && \\
     git clone https://github.com/ablab/quast.git -b release_4.2 && \\
-    cd quast && ./install.sh
+    cd quast && bash ./install.sh
 
 ENV PATH=$PATH:/home/megahit:/home/quast
 
