@@ -55,7 +55,7 @@ download from the console.  Open the zip file on your local computer,
 and find the file `ecoli_ref-5m_fastqc.html`. Double click on that.
 
 This is a
-[FastQC report](www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+[FastQC report](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 that gives you a basic report on the quality of your sequencing.
 
 ## Looking at your assembly: mapping
