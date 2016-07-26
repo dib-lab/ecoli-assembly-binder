@@ -76,7 +76,7 @@ cp ecoli/final.contigs.fa > ecoli-assembly.fa
 If you look at this assembly with 'head', you'll see it's a bunch of
 FASTA sequences.  How do you look at it comprehensively?
 
-Try running [quast](http://http://quast.sourceforge.net/quast):
+Try running [quast](http://quast.sourceforge.net/quast):
 
 ```
 quast.py ecoli-assembly.fa -o ecoli_report
