@@ -8,14 +8,13 @@ RUN apt-get update && \
            r-cran-gplots python-matplotlib sysstat python-virtualenv \
            python-setuptools cmake ncbi-blast+
 
-RUN cd /home && git clone https://github.com/voutcn/megahit.git && cd megahit \
+USER main
+
+RUN cd /home/main && git clone https://github.com/voutcn/megahit.git && cd megahit \
     && make
 
-RUN cd /home && \\
+RUN cd /home/main && \\
     git clone https://github.com/ablab/quast.git -b release_4.2 && \\
     cd quast && bash ./install.sh
 
-ENV PATH=$PATH:/home/megahit:/home/quast
-
-USER main
-
+ENV PATH=$PATH:/home/main/megahit:/home/main/quast
