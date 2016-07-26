@@ -1,5 +1,9 @@
 # An assembly tutorial with MEGAHIT
 
+C. Titus Brown
+
+July 2016.
+
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mblmicdiv/ecoli-assembly-binder)
 
 Download some data:
