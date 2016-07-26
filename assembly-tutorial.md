@@ -4,9 +4,17 @@ C. Titus Brown
 
 July 2016.
 
+Click here:
+
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mblmicdiv/ecoli-assembly-binder)
 
-Download some data:
+to start a binder.
+
+-----
+
+Open a terminal, and get command line access.
+
+Now, download some data:
 
 ```
 curl -O -L https://s3.amazonaws.com/public.ged.msu.edu/ecoli_ref-5m.fastq.gz
@@ -28,7 +36,8 @@ use e.g. the [khmer software's](https://khmer.readthedocs.io/) script
 `interleave-reads.py` to combine them.
 
 We're going to do two things to this data.  We're going to assemble it,
-and, while we're assembling it, we're going to evaluate the quality.
+and, while we're assembling it, we're going to evaluate the quality of
+the reads.
 
 ## Assembling
 
