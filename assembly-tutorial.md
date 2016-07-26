@@ -79,7 +79,7 @@ something like
 There will be a file `ecoli/final.contigs.fa` - copy it out and compress it,
 
 ```
-cp ecoli/final.contigs.fa . > ecoli-assembly.fa
+cp ecoli/final.contigs.fa ecoli-assembly.fa
 ```
 
 If you look at this assembly with 'head', you'll see it's a bunch of
