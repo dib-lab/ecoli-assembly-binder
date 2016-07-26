@@ -114,6 +114,7 @@ gunzip -c ecoli_ref-5m.fastq.gz | head -1000000 |
 Use BWA to align the reads:
 
 ```
+bwa index ecoli-assembly.fa 
 bwa aln ecoli-assembly.fa head.1 > head.1.sai 
 bwa aln ecoli-assembly.fa head.2 > head.2.sai 
 bwa sampe ecoli-assembly.fa head.1.sai head.2.sai head.1 head.2 > head.sam
