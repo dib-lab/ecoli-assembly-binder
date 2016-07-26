@@ -64,7 +64,7 @@ download from the console.  Open the zip file on your local computer,
 and find the file `ecoli_ref-5m_fastqc.html`. Double click on that.
 
 This is a
-[FastQC report](www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+[FastQC report](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 that gives you a basic report on the quality of your sequencing.
 
 ## Looking at your assembly: mapping
@@ -85,7 +85,7 @@ cp ecoli/final.contigs.fa > ecoli-assembly.fa
 If you look at this assembly with 'head', you'll see it's a bunch of
 FASTA sequences.  How do you look at it comprehensively?
 
-Try running [quast](http://http://quast.sourceforge.net/quast):
+Try running [quast](http://quast.sourceforge.net/quast):
 
 ```
 quast.py ecoli-assembly.fa -o ecoli_report
