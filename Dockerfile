@@ -7,7 +7,7 @@ RUN apt-get update && \
            default-jre pkg-config libncurses5-dev r-base-core \
            r-cran-gplots python-matplotlib sysstat python-virtualenv \
            python-setuptools cmake ncbi-blast+ fastqc bwa python-pip \
-           libxml-simple-perl
+           libdatetime-perl libxml-simple-perl libdigest-md5-perl bioperl
 
 USER main
 
